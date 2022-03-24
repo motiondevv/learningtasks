@@ -3,7 +3,7 @@ body{   /* */
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
-    background-size: 1920px 1500px
+    background-size: 130%;
 }
 img{
     width: 310px;
