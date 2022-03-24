@@ -2,7 +2,6 @@ body{   /* */
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
     height: auto;
 }
 img{
