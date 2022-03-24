@@ -3,7 +3,6 @@ body{   /* */
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
-    background-size: 130%;
 }
 img{
     width: 310px;
@@ -28,6 +27,10 @@ img{
 
     
 }
+#g{
+    color: #D68910;
+}
+
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
     width: 310px;
     height: 400px;
@@ -62,7 +65,8 @@ img{
   width: 97%;
     height: auto;
     padding: 5px;
-    margin: 8px;  
+    margin: 8px; 
+    background-color: #80808040;
 }
 #contents p{
     color: #654321; /*dark brown */
