@@ -92,6 +92,7 @@ img{
     height: auto;
     padding: 5px;
     margin: 8px;  
+    background-color: #80808040;
 }
 #content p{
     color: #654321; /*dark brown */
