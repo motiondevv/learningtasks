@@ -1,0 +1,323 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
+
+#wrapper{
+    width: 1880px;
+    min-height: 940px;
+    }
+    
+div[id^='block-']{
+    width: 45px;
+    height: 45px;
+    display:block;
+    float: left;
+    border: 1px solid #80808000;
+}
+.bubble{
+    font-family: 'Orelega One', cursive;
+    height: 100px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+#box{
+    font-family: 'Orelega One', cursive;
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    
+    
+}
+
+#washington-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#montana-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#maryland-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#northdakota-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#california-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#oregon-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#idaho-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#texas-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#oklahoma-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#arizona-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#newmexico-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#nebraska-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#kansas-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#colorado-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#utah-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#nevada-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#wyoming-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#southdakota-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#minnesota-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#wisconsin-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#michigan-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#newyork-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#vermont-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#maine-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#newhampshire-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#massachusetts-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#connecticut-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#rhodeisland-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#newjersey-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#delaware-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#illinois-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#indiana-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#ohio-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#pennsylvania-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#missouri-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#kentucky-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#westvirginia-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#virginia-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#arkansas-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#tennessee-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#northcarolina-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#louisiana-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#mississippi-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#alabama-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#georgia-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#southcarolina-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
+#iowa-talk{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    display: none;
+}
