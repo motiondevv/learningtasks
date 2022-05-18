@@ -1,0 +1,135 @@
+#wrapper{
+    width: 1800px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    color: azure;
+}
+body{  
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+#wrapper h1{
+    font-family: 'Macondo', cursive;
+    color: azure;
+    width: 96%;
+    text-align: center;
+    font-size: 40px;
+}
+#menu{
+    width: 61%;
+    height: 100px;
+    float: right;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu a{
+    display: block;
+    min-width: 60px;
+    padding: 4px;
+    margin: 4px;
+    float: left;
+    text-decoration: none;
+    border: 2px solid #D6D2D2;
+    font-size: 20px;
+}
+#menu a:link, #menu a:visited{
+    color: azure;
+    text-decoration: none;
+    background-color: black;
+}
+#menu a:hover{
+    color: azure;
+    text-decoration: none;
+    background-color: #7b7b7b;
+}
+#menu li{
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    display: inline;
+    float: left;
+}
+#content{
+    width: 61%;
+    height: auto;
+}
+#home{
+    width: 80%;
+    height: 500px;
+}
+#profile{
+    margin-top: 10px;
+    width: 98%;
+    height: 200px;
+}
+#profile h1{
+    font-family: 'Macondo', cursive;
+    margin-top: 80px;
+    text-align: left;
+}
+#profile h2{
+    font-family: 'Macondo', cursive;
+    margin-left: 25px;
+}
+#profile li{
+    font-family: 'Macondo', cursive;
+}
+#works{
+    text-align: center;
+    width: 98%;
+    height: 200px;
+    float: left;
+}
+#works ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#works li{
+    font-family: 'Macondo', cursive;
+    float: right;
+    margin-bottom: 100px;
+}
+#works a{
+    display: block;
+    min-width: 60px;
+    padding: 4px;
+    margin: 4px;
+    float: left;
+    text-decoration: none;
+    border: 2px solid #D6D2D2;
+    font-size: 20px;
+}
+works a:link, #works a:visited{
+    color: azure;
+    text-decoration: none;
+    background-color: black;
+}
+#works a:hover{
+    color: azure;
+    text-decoration: none;
+    background-color: #7b7b7b;
+}
+#works h1{
+    margin-top: 10px;
+    text-align: right;
+    width: 89%;
+}
+#about{
+    font-family: 'Macondo', cursive;
+    width: 80%;
+    height: 100px;
+}
+#about h1{
+    margin-top: 80px;
+    text-align: left;
+}
+#about h2{
+    margin-left: 25px;
+}

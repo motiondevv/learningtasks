@@ -1,17 +1,53 @@
+<?php
+$page = (isset($_GET['page']) && $_GET['page'] != '') ?
+$_GET['page'] : '';
+?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Home Page</title>
-  </head>
-  <body>
-  <h1>Welcome to My Website! I am Kristian Kayle Arca!</h1>
-  <ul>
-    <li><a href="index.php">HOME</a></li>
-    <li><a href="/LT2/index.html">LEARNING TASK 2</a></li>
-    <li><a href="/LT3/index.html">LEARNING TASK 3</a></li>
-    <li><a href="/CLE1MT/index.html">CLE1MT</a></li>
-    <li><a href="/LT4/index.html">LEARNING TASK 4</a></li>
-    <li><a href="/LT5/index.html">LEARNING TASK 5</a></li>
-    </ul>
+<head>
+    <title>LT6</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+    <div id= "wrapper">
+        <h1>Web Designer Portfolio</h1>
+        
+            
+        <div id="menu">
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php?page=profile">Profile</a></li>
+            <li><a href="index.php?page=works">Works</a></li>
+            <li><a href="index.php?page=about">About</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+        <?php
+            switch($page){
+                case 'profile':
+                    include 'profile.php';
+                break;
+                case 'works':
+                    include 'works.php';
+                break;
+                case 'about':
+                    include 'about.php';
+                break;
+                default:
+                    include 'home.php';
+                break;
+              
+            }
+        ?>    
+        </div>
+        
+        
+        </div>
     </body>
- </html>
+</html>
